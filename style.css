@@ -1,0 +1,170 @@
+/* Custom CSS for JavaScript quiz for my personal website. */
+
+/* Marissa Tavano */
+/* Created in 2019 */
+/* Updated: 2019 */
+
+
+
+*,
+:after,
+:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
+	margin: 0;
+	padding: 0;
+}
+
+
+body,
+html {
+	font-family: 'Roboto', 'Raleway', Source Sans Pro, Helvetica, Arial, sans-serif;
+	color: #333;
+	line-height: 1.5;
+	height: 100%;
+}
+
+/* (So footer can be formatted right.) */
+#wrap {
+	min-height: 100%;
+}
+
+/* (So footer can be formatted right.) */
+#main {
+	overflow: auto;
+	padding-bottom: 50px;	/* Must be same height as the footer. */
+}
+
+
+
+/* For the name of the quiz. */
+body .quiz-name,
+html .quiz-name {
+	font-size: 34px;
+	line-height: 40px;
+	
+	margin-top: 1px;
+	margin-bottom: 12px;
+	margin-left: 12px;
+}
+
+/* For the quiz directions. */
+body h4,
+html h4 {
+	font-size: 19px;
+	font-weight: 400;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 12px;
+}
+
+/* For the quiz container. */
+#quiz {
+	margin: 10px;
+	margin-left: 52px;
+	margin-top: 1px;
+}
+
+/* For each question. */
+.question {
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	color: #007bff;
+	
+	margin-top: 6px;
+	padding-top: 4px;
+}
+
+/* For the container of answer choices for each question. */
+.answerChoices {
+	margin-bottom: 8px;
+	margin-left: 10px;
+	margin-top: 1px;
+}
+
+/* The label for each answer choice. */
+.answerChoices label {
+	display: block;
+	margin-bottom: 2px;
+}
+
+/* Submit button. */
+#submit {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	background-color: #007bff;
+	
+	border: 0;
+	border-radius: 3px;
+	
+	padding: 20px;
+	
+	margin-bottom: 20px;
+	margin-top: 9px;
+	margin-left: 12px;
+	
+	cursor: pointer;
+}
+
+/* When the user hovers over the submit button. */
+#submit:hover {
+	background-color: #3295ff;
+}
+
+/* The results section. */
+#results {
+	font-size: 19px;
+	
+	margin-left: 12px;
+	margin-bottom: 15px;
+}
+
+
+
+
+/*************************************/
+/*                Footer.            */
+/*************************************/
+.footer {
+	padding-top: 1px;
+	padding-bottom: 10px;
+	
+	margin-right: 4px;
+	width: 90%;
+	
+	position: relative;
+	margin-top: -50px; 		/* Negative value of footer height. */
+	height: 50px;
+	clear: both;
+	
+	
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: left;
+	-ms-flex-align: left;
+	align-items: center;
+}
+
+.footer__copyright {
+	font-weight: 400;
+	width: 200px;
+	padding-left: 10px;
+}
+
+body span,
+html span {
+	line-height: 24px;
+}
+
+
+
+
